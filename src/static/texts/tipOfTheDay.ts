@@ -1,0 +1,16 @@
+export const tipOfTheDay = {
+    "24/8": 'Om Reccen inte har kollat in Binärs mullilurga hemsida är det hög tid för den nyfikna Reccen att göra det! www.recce.utn.se.',
+    "25/8": 'Fyll i Recceenkäten med information som är viktig för Mottagningen att veta. Enkäten hittas både i appen och på hemsida.',
+    "26/8": "Inför din Klassfest är det smart att köpa Spännkort som kan bytas mot mat och dryck under kvällen. Glöm inte att svänga förbi Fotobåset innan din Klassfest är slut!",
+    "27/8": "Under Microgasquen äts matlåda som Reccen tagit med själv, så glöm inte den!",
+    "28/8": "Har du hittat Ulla Mullvads försvunna skatt? Sägnen talar om ledtrådar som hittas på hemsidan...",
+    "29/8": "Glöm inte att göra Stingquizet under Stingfestivalen. Vinnaren lovas mulliga priser!",
+    "30/8": "Imorgon är det dags för den ärofyllda Klassolympiaden! Klassen ska välja ut 6 kämpar att representera de medans de övriga kan följa olympiaden via livestream.",
+    "31/8": "Världens bästa podcast heter Mediapod, på hemsidan hittar Reccen länkarna till avsnitten.",
+    "1/9": "Det går ett rykte om att Reccar som bjuder Rekåiter på något de tycker om kan få idolkort som tack.",
+    "2/9": "Om Reccen vill lära sig den mulledunderliga Reccedansen kan en titta på denna video:",
+    "3/9": "Om inte Reccen har lämnat sin studieförsäkran än är det hög tid att göra detta nu! Det går att göra via CSN-appen.",
+    "4/9": "För att Reccen ska ha råd att köpa vitlök och inte lägga alla pengar på kurslitteratur kan Reccen fråga sina Faddrar om de säljer sina gamla böcker till ett maskigt pris!",
+    "5/9": "Om Reccen vill vara säker på att få sitta ifred med sina kompisar och plugga kan Reccen med fördel boka grupprum till pluggpasset. Detta gör Reccen via Timeedit.",
+    "6/9": "",
+}

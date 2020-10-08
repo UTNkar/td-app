@@ -1,0 +1,1 @@
+export const infoText = 'Här hittar Reccen all möjlig mullelurig information som kan vara mulledundrigt bra att ha reda på! Vill Reccen veta ännu mer kan Reccen såklart kolla på den mulltastiska hemsidan recce.utn.se';

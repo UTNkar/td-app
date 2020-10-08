@@ -1,0 +1,1 @@
+export const TDText = 'Teknolog- och datavetarmottagningens aktiviteter arrangeras och administreras ideellt av Fadderkå, Mediakå, Rekå, Gruppkoordinatorer och propplärarna. Du kan läsa mer om alla dessa grupper nedan. TD-mottagningen vill även rikta ett speciellt tack till alla faddrar och volontärer vars arbete är en förutsättning för att mottagningen ska kunna genomföras.';

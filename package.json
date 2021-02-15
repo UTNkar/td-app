@@ -16,7 +16,7 @@
         "@react-native-firebase/analytics": "^6.7.2",
         "@react-native-firebase/app": "^10.4.0",
         "@react-native-firebase/firestore": "^6.7.1",
-        "@react-native-firebase/messaging": "^6.7.1",
+        "@react-native-firebase/messaging": "^10.8.0",
         "@react-navigation/bottom-tabs": "^5.4.4",
         "@react-navigation/drawer": "^5.7.4",
         "@react-navigation/native": "^5.3.2",

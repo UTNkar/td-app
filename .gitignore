@@ -52,6 +52,7 @@ buck-out
 local.properties
 *.iml
 /android/app/build
+/android/app/google-services.json
 
 # Node
 node_modules

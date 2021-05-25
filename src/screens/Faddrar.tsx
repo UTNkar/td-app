@@ -16,19 +16,19 @@ const Faddrar = (props) => {
         <SafeAreaView style={style.background}>
             <View>
                 <TDHeader />
-                <Image style={{height: 255, width: '100%',}} source={require('../static/images/WeAreTD/Fadder.jpg')} />
-               <Text style={style.TitleText}>
+                <Image style={{ height: 255, width: '100%', }} source={require('../static/images/WeAreTD/Fadder.jpg')} />
+                <Text style={style.TitleText}>
                     Faddrar
                 </Text>
-                <View style={style.Line}/>
+                <View style={style.Line} />
                 <Text style={style.Text}>
-                    Liksom ljuset i mörkret utstrålar Faddrarna glädje och energi. Ifall Reccen känner sig ensam, inte hittar till Proppen eller undrar över lite VADsomhelst finns Faddrarna alltid där för Reccen. Klädda i mullefräcka overaller sprider de blommor och kärlek och ser till att Reccen aldrig känner sig ensam i sin nya studentstad.
+                    Liksom ljuset i mörkret utstrålar Faddrarna glädje och energi. Ifall Reccen känner sig ensam, inte hittar till Proppen eller undrar över lite VADsomhelst finns Faddrarna alltid där för Reccen. Klädda i hoppedundriga overaller sprider de blommor och kärlek och ser till att Reccen aldrig känner sig ensam i sin nya studentstad.
                 </Text>
             </View>
         </SafeAreaView>
     );
 };
-const style= StyleSheet.create({
+const style = StyleSheet.create({
     background: {
         backgroundColor: '#342A3B',
         flex: 1,

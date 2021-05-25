@@ -36,7 +36,7 @@ const UtnScreen = ({ navigation }) => {
                     </View>
                     <Divider color={'white'} width={WIDTH - 30} />
                     <Text style={style.infoText}>
-                        Som en extra strålande del av Reccens första vecka på Mottagningen har [tæ:sk] kompilerat wUNDERbara klassuppdrag till varje dag. Klassuppdragen kan redovisas för valfri Mediakåit, Fadderkåit eller Rekåit för extra mustiga bonuspoäng till [tæ:sk]:s och Binärs uttermost awesome klassolympiad. Kanske blir bonuspoängen från klassuppdragen avgörande för Reccens klass vinst eller förlust. Åhh må bästa Recceklassen vinna!
+                        Som del av Reccens hoppfulla vardag under första veckan på mottagningen har [tæ:sk] konstruerat riktigt grodifräcka klassuppdrag varje dag. Dessa uppdrag kan redovisas för valfri Mediakåit, Fadderkåit, Rekåit eller via klassens hoppedundrande instagramkonto för bonuspoäng till [tæ:sk]s och Binärs eminenta klassolympiad. Kanske kan bonus från klassuppdragen vara avgörande för att säkra vinst till Reccens klass. ÅÅh må såklart den bästa Recceklassen vinna!
                     </Text>
                 </ScrollView>
             </View>

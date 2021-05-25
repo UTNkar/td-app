@@ -14,7 +14,7 @@ import TDHeader from '../components/TDHeader';
 import Divider from '../components/Divider';
 
 const WIDTH = Dimensions.get('window').width;
-const infoText = `Efter måndagens Upprop kommer Reccen få chans att gå med i Uppsala teknolog- och naturvetarkår och samtidigt kan Reccen skriva in sig på nation. Uppsala har inte mindre än 13 nationer och Φ Rekåmmenderar å det mullersta att Reccen går med i minst en. Vilken eller vilka Reccen väljer i början har inte en alltför stor inverkan på Reccens kommande studentliv, eftersom medlemskap i en av dem ger en frän access till allihopa. Skulle Reccen sedan upptäcka att åh mullrans det har valts fel av odefinierad anledning, kan Reccen byta inom en rimlig tidsrymd. Reccen bör således inte oroa sig alltför mycket, men det kan vara Φ-Φigt att gå med i en vars namn ligger Reccen nära till sin geografiska hembygd. Att vara med i en nation ger Reccen möjlighet att delta på alla festligheter och andra kuligheter som nationerna ordnar.`
+const infoText = `Efter uppropet kan nu Reccen bli en del av den frogtastiska dimensionskällan som är Uppsala teknolog- och naturvetarkår.\n\n Φ vill självklart hjälpa Reccen och Reccens nya hoppedundriga kompisar att hjälpa sig själva. Φ Rekåmmenderar därför att Reccen skriver in sig i Kåren, så att Reccen kan ta del av fördelaktiga rabatter och få sin röst hörd. Därefter kommer Reccen även att få möjlighet att skriva in sig på en eller flera av Uppsalas 13 nationer. Varför undrar Reccen? Jo, för att Reccen får då sitt alldeles egna nationskort som är passagen till nationernas dimensioner. Fest, aktiviteter och mycket mera.`
 
 const HeaderImage = ({ source }) => (<Image source={source}
     style={style.headerImage}
@@ -39,9 +39,9 @@ const UtnScreen = ({ navigation }) => {
                     <Text style={style.infoText}>
                         {infoText}
                     </Text>
-                    <Text style={style.infoText}>Reccen hittar instruktioner för att gå med i nationerna och kåren <Text style={{ color: 'lightblue' }}onPress={() => Linking.openURL('https://recce.utn.se/sites/default/files/bilder_2019/random/medlem_utn.pdf')}>HÄR</Text></Text>
+                    <Text style={style.infoText}>Reccen hittar instruktioner för att gå med i nationerna och kåren <Text style={{ color: 'lightblue' }} onPress={() => Linking.openURL('https://recce.utn.se/sites/default/files/bilder_2019/random/medlem_utn.pdf')}>HÄR</Text></Text>
                     <Text style={style.infoText}>På nation ordnas inte bara mottagningens större fester, många nationer ordnar pub och klubb under veckorna. Nationerna har även många föreningar och körer. Φ vill även tipsa om att många nationer har bostäder ifall Reccen ännu inte skaffat sig ett nytt, mustigt och krypinnerligt plejs att sova på.</Text>
-                    <Text style={{...style.infoText, fontWeight: 'bold'}}>För att Reccen ska kunna skapa sig en ännu bättre bild av Uppsalas nationsliv kan Reccen med fördel spana in den nationsguide som Φ har besvärjat fram, och som Reccen återfinner alldeles precis <Text style={{ color: 'lightblue'}}onPress={() => Linking.openURL('https://recce.utn.se/sv/bra-att-veta/nationer/fs-nationsguide')}>HÄR</Text></Text>
+                    <Text style={{ ...style.infoText, fontWeight: 'bold' }}>För att Reccen ska kunna skapa sig en ännu bättre bild av Uppsalas nationsliv kan Reccen med fördel spana in den nationsguide som Φ har besvärjat fram, och som Reccen återfinner alldeles precis <Text style={{ color: 'lightblue' }} onPress={() => Linking.openURL('https://recce.utn.se/sv/bra-att-veta/nationer/fs-nationsguide')}>HÄR</Text></Text>
                 </ScrollView>
             </View>
         </SafeAreaView>

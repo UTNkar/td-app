@@ -16,18 +16,19 @@ const HEIGHT = Dimensions.get('window').height;
 const RecceenkatenScreen = () => {
     return (
         <SafeAreaView style={style.safeContainer}>
-        <ScrollView style={{ flex: 1, backgroundColor: '#342A3B' }}>
-            <TDHeader />
-            <View style={{ marginHorizontal: 10 }}>
-                <SponsorHeader />
-                <Text style={style.infoText}>Här kan Reccen med fördel fylla i välfräst information om Reccen själv som kan vara viktig för Teknolog- och Datavetarmottagningen att veta. Reccen får här även chansen att uttrycka övriga intressen, åsikter och sin allmänna syn på livet, mulligt intressant för Rekå. Viktigast är såklart att Reccen fyller i sina kontaktuppgifter och telefonnummer till kriskontakter. För att komma till enkäten klickar du på knappen här nedan. Ses på andra sidan kryphålet!</Text>
-                <TouchableOpacity
-                    style={style.button}
-                    onPress={() => Linking.openURL('https://docs.google.com/forms/d/1RzN-Rsg-wwNYedqcB11mu85dFsZaGGOZU553nV6lyF8/viewform?edit_requested=true')}>
-                    <Text style={style.buttonText}>Recce-enkäten</Text>
-                </TouchableOpacity>
-            </View>
-        </ScrollView >
+            <ScrollView style={{ flex: 1, backgroundColor: '#342A3B' }}>
+                <TDHeader />
+                <View style={{ marginHorizontal: 10 }}>
+                    <SponsorHeader />
+                    <Text style={style.infoText}>Här kan Reccen med fördel fylla i multimensionell information om Reccen själv som kan vara viktig för Teknolog- och datavetarmottagningen att veta. Reccen får här även chansen att uttrycka övriga intressen, åsikter och sin allmänna syn på livet, frogtastiskt intressant för Rekå. Viktigast är såklart att Reccen fyller i sina kontaktuppgifter och telefonnummer till kriskontakter.{'\n\n'}Ses på andra sidan diket!{'\n'}/[tæ:sk]
+</Text>
+                    <TouchableOpacity
+                        style={style.button}
+                        onPress={() => Linking.openURL('https://docs.google.com/forms/d/e/1FAIpQLScDN-TsncQirm59rEa4iDzy98nyy464cQ5Zcf0GkCombdoP0g/viewform?usp=pp_url')}>
+                        <Text style={style.buttonText}>Recce-enkäten</Text>
+                    </TouchableOpacity>
+                </View>
+            </ScrollView >
         </SafeAreaView>
     );
 };
